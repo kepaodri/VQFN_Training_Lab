@@ -10,6 +10,12 @@ This project features a power supply circuit centered on the AP7361C (DFN) LDO r
 - Output voltage accuracy: +-1%
 - Max Current: 1.5A
 
+### PCB Features
+- Layers: 2
+- Thickness: 1.6mm
+- Width: 45mm
+- Heigth: 50mm
+
 ### 3D Render
 ![Top View](renders/VQFN_Training_Lab_topRayTracing.png)
 ![Bot View](renders/VQFN_Training_Lab_bottomRayTracing.png)
