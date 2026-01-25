@@ -3,6 +3,8 @@ PCB Design for a VQFN and DFN package soldering practice board using an LDO regu
 
 ## 3D Render
 ![Top View](renders/VQFN_Training_Lab_topRayTracing.png)
+![Bot View](renders/VQFN_Training_Lab_bottomRayTracing.png)
+
 
 ## Tools Used
 KiCad: 9.0.4
