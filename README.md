@@ -4,7 +4,13 @@ PCB Design for a VQFN and DFN package soldering practice board using an LDO regu
 ## Project Description
 This project features a power supply circuit centered on the AP7361C (DFN) LDO regulator. It converts a 2.2V to 6.0V input into a stable 3.3V output with ±1% accuracy. To manage power, SW1 (POWER ON) and SW2 (RESET) pulses are debounced by a 74LVC2G14 Schmitt-Trigger inverter (TSSOP6). A 74AHCT32 (VQFN) OR gate creates a latch, while a 74HCT08 (VQFN) AND gate acts as a kill switch to maintain Enable signal only if the latch is active and RESET is not pressed. 2 green LEDs (D1, D2) provide visual feedback status for the +5V and +3V3 rails.
 
-## 3D Render
+### Hardware Features
+- Input Voltage Range: 2.2V - 6V
+- Output Voltage: 3.3V Fixed
+- Output voltage accuracy: +-1%
+- Max Current: 1.5A
+
+### 3D Render
 ![Top View](renders/VQFN_Training_Lab_topRayTracing.png)
 ![Bot View](renders/VQFN_Training_Lab_bottomRayTracing.png)
 
