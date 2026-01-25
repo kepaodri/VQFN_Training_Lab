@@ -11,7 +11,7 @@ This project features a power supply circuit centered on the AP7361C (DFN) LDO r
 ## Tools Used
 KiCad: 9.0.4
 
-\## Licensing and Open Source Hardware
+## Licensing and Open Source Hardware
 This project is certified as \*\*Open Source Hardware\*\*. 
 
 ### Hardware License
@@ -21,3 +21,5 @@ The hardware design files are licensed under the \*\*CERN Open Hardware Licence 
 ### Documentation License
 All associated documentation, including manuals and images, is licensed under \*\*Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)\*\*.
 
+## Disclaimer
+\*\*This design is provided "AS-IS" without any express or implied warranties.\*\* The author is not responsible for any damage to equipment, fire, or personal injury resulting from the assembly or use of this PCB.
