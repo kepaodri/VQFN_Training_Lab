@@ -1,5 +1,6 @@
 # VQFN_Training_Lab
-PCB Design for a VQFN and DFN package soldering practice board using an LDO regulator
+PCB Design for a VQFN and DFN package soldering practice board using an LDO regulator.
+The purpose of this project is to give different hobbyists without prior experience with this type of package the opportunity to perform soldering tests to reach a good level of mastery. Soldering can be done for example combining both reflow hot plate and hot air gun. 
 
 ## Project Description
 This project features a power supply circuit centered on the AP7361C (DFN) LDO regulator. It converts a 2.2V to 6.0V input into a stable 3.3V output with ±1% accuracy. To manage power, SW1 (POWER ON) and SW2 (RESET) pulses are debounced by a 74LVC2G14 Schmitt-Trigger inverter (TSSOP6). A 74AHCT32 (VQFN) OR gate creates a latch, while a 74HCT08 (VQFN) AND gate acts as a kill switch to maintain Enable signal only if the latch is active and RESET is not pressed. 2 green LEDs (D1, D2) provide visual feedback status for the +5V and +3V3 rails.
