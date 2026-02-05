@@ -30,9 +30,10 @@ This project is certified as \*\*Open Source Hardware\*\*.
 ### Hardware License
 The hardware design files are licensed under the \*\*CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)\*\*. 
 > You may redistribute and modify this documentation and build products based on it under the terms of the CERN-OHL-P v2.0.
-
 ### Documentation License
 All associated documentation, including manuals and images, is licensed under \*\*Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)\*\*.
+
+![OSHW_UID](doc/oshw_facts.png)
 
 ## Disclaimer
 \*\*This design is provided "AS-IS" without any express or implied warranties.\*\* The author is not responsible for any damage to equipment, fire, or personal injury resulting from the assembly or use of this PCB.
