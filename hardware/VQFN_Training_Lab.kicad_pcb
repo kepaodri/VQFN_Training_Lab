@@ -1911,7 +1911,7 @@
 		(property "Reference" "U1"
 			(at -0.068 -2.3064 0)
 			(layer "F.SilkS")
-			(uuid "90d39c27-5f1b-4001-92f8-861b6aee82c4")
+			(uuid "02093e3c-7176-4061-8427-0dcb7524bf66")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -1922,7 +1922,7 @@
 		(property "Value" "AP7361C-FGE-7"
 			(at -1.47 2.475 0)
 			(layer "F.Fab")
-			(uuid "715e8a3c-9e16-4452-8d16-2a46fa7323b1")
+			(uuid "2cc0b393-5781-4dc7-9a52-db36c885ea6c")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -1934,7 +1934,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4093152a-5f98-4e15-96f4-2a26e934e283")
+			(uuid "1d17ddbd-234b-48ff-be34-b53e57b33498")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1946,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9062d182-7df2-448b-8086-5d079ee022e5")
+			(uuid "6b8b98d8-e334-4fab-ad1b-e532198d3e25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,8 +2376,8 @@
 			(uuid "5cf259f9-7acd-4b69-923f-e5709f07376c")
 		)
 		(pad "10" thru_hole circle
-			(at -0.3 -0.6)
-			(size 0.5 0.5)
+			(at -0.3 -0.54)
+			(size 0.25 0.25)
 			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
@@ -2388,8 +2388,8 @@
 			(uuid "3c0d0601-fbaa-49a4-b25f-baa6c874bc27")
 		)
 		(pad "11" thru_hole circle
-			(at 0.3 0.6)
-			(size 0.5 0.5)
+			(at 0.3 -0.54)
+			(size 0.25 0.25)
 			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
@@ -2398,6 +2398,52 @@
 			(solder_mask_margin 0.05)
 			(zone_connect 2)
 			(uuid "c8361a43-ed87-4a4b-a0da-83650464ee54")
+		)
+		(pad "12" thru_hole circle
+			(at -0.3 0)
+			(size 0.25 0.25)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GND")
+			(solder_mask_margin 0.05)
+			(zone_connect 2)
+			(uuid "84490bf6-25c9-4bd0-a81a-17f65c720a51")
+		)
+		(pad "13" thru_hole circle
+			(at 0.3 0)
+			(size 0.25 0.25)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GND")
+			(solder_mask_margin 0.05)
+			(zone_connect 2)
+			(uuid "dd3b3fae-0c11-47c8-823c-e7da47b3a915")
+		)
+		(pad "14" thru_hole circle
+			(at -0.3 0.54)
+			(size 0.25 0.25)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.05)
+			(zone_connect 2)
+			(uuid "af5d7605-8423-49b4-8500-096f50b1ef70")
+		)
+		(pad "15" thru_hole circle
+			(at 0.3 0.54)
+			(size 0.25 0.25)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.05)
+			(zone_connect 2)
+			(uuid "13a739ca-99ea-484a-aa81-7b7950bd48c2")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/kepao/Documents/KiCad_Libraries/3D/AP7361C-FGE-7.step"
@@ -13691,6 +13737,18 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "GND ~100mm2\nwith 3x2 via grid in EP (U1)"
+		(at 134.85 116.74 90)
+		(layer "B.SilkS")
+		(uuid "10ad96aa-a937-42a4-ba76-3a0db1df8afa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(gr_text "Version: 1.0\nDate: 2026-Q1\nAuthor: Kepa Odriozola"
 		(at 127 78.6 90)
 		(layer "B.SilkS")
@@ -13703,7 +13761,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "OSHW UID: FR00000X"
+	(gr_text "OSHW UID: FR000030"
 		(at 148.85 85.29 0)
 		(layer "B.SilkS")
 		(uuid "ea547a99-9011-47fa-bd5a-9fb68516eb47")
@@ -13716,13 +13774,14 @@
 		)
 	)
 	(gr_text "Licensed under CERN-OHL-P-2.0"
-		(at 154.27 118.69 0)
+		(at 154.48 72.31 0)
 		(layer "B.SilkS")
 		(uuid "f5cd658a-fcc8-46c0-837c-41dff92ad4d0")
 		(effects
 			(font
 				(size 0.9 0.9)
-				(thickness 0.1)
+				(thickness 0.18)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -18307,6 +18366,53 @@
 				(xy 122.990043 70.64971) (xy 123.311385 70.569218) (xy 123.323296 70.566849) (xy 123.650962 70.518244)
 				(xy 123.663068 70.517052) (xy 123.996967 70.500648) (xy 124.003051 70.5005) (xy 124.065892 70.5005)
 				(xy 160.934108 70.5005) (xy 160.996949 70.5005)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Mask")
+		(uuid "82f5c09e-04c2-4670-a37e-822561816380")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.2)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(smoothing fillet)
+			(radius 1)
+		)
+		(polygon
+			(pts
+				(xy 135.638982 106.1) (xy 144.638982 106.1) (xy 144.638982 117.1) (xy 135.638982 117.1)
+			)
+		)
+		(filled_polygon
+			(layer "B.Mask")
+			(island)
+			(pts
+				(xy 143.645043 106.100597) (xy 143.821916 106.118017) (xy 143.845757 106.122759) (xy 144.00998 106.172575)
+				(xy 144.032438 106.181878) (xy 144.18378 106.262772) (xy 144.203992 106.276277) (xy 144.336648 106.385145)
+				(xy 144.353836 106.402333) (xy 144.462704 106.534989) (xy 144.476209 106.555201) (xy 144.557103 106.706543)
+				(xy 144.566406 106.729001) (xy 144.616222 106.893224) (xy 144.620964 106.917065) (xy 144.638385 107.093938)
+				(xy 144.638982 107.106092) (xy 144.638982 116.093907) (xy 144.638385 116.106061) (xy 144.620964 116.282934)
+				(xy 144.616222 116.306775) (xy 144.566406 116.470998) (xy 144.557103 116.493456) (xy 144.476209 116.644798)
+				(xy 144.462704 116.66501) (xy 144.353836 116.797666) (xy 144.336648 116.814854) (xy 144.203992 116.923722)
+				(xy 144.18378 116.937227) (xy 144.032438 117.018121) (xy 144.00998 117.027424) (xy 143.845757 117.07724)
+				(xy 143.821916 117.081982) (xy 143.645043 117.099403) (xy 143.632889 117.1) (xy 136.645075 117.1)
+				(xy 136.632921 117.099403) (xy 136.456047 117.081982) (xy 136.432206 117.07724) (xy 136.267983 117.027424)
+				(xy 136.245525 117.018121) (xy 136.094183 116.937227) (xy 136.073971 116.923722) (xy 135.941315 116.814854)
+				(xy 135.924127 116.797666) (xy 135.815259 116.66501) (xy 135.801754 116.644798) (xy 135.72086 116.493456)
+				(xy 135.711557 116.470998) (xy 135.661741 116.306775) (xy 135.656999 116.282934) (xy 135.639579 116.106061)
+				(xy 135.638982 116.093907) (xy 135.638982 107.106092) (xy 135.639579 107.093938) (xy 135.656999 106.917065)
+				(xy 135.661741 106.893224) (xy 135.711557 106.729001) (xy 135.72086 106.706543) (xy 135.801754 106.555201)
+				(xy 135.815259 106.534989) (xy 135.924127 106.402333) (xy 135.941315 106.385145) (xy 136.073971 106.276277)
+				(xy 136.094183 106.262772) (xy 136.245525 106.181878) (xy 136.267983 106.172575) (xy 136.432206 106.122759)
+				(xy 136.456047 106.118017) (xy 136.632921 106.100597) (xy 136.645075 106.1) (xy 143.632889 106.1)
 			)
 		)
 	)
